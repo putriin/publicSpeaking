@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  /* background: #003229; */
+  background: rgba(215, 248, 220, 0.418);
+}
+.container {
+  /* border: solid; */
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+  margin-top: 50px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+h2 {
+  background-color: rgba(70, 126, 100, 0.8);
+  color: #fff;
+  width: 400px;
+  align-items: center;
+  text-align: center;
+  margin-left: 100px;
+  padding: 15px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 5px 0px 5px #00372d82, 0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+table {
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  border-collapse: collapse;
+  margin-left: 100px;
+  /* border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; */
+  background: rgba(90, 146, 120, 0.5);
+  box-shadow: 5px 10px 5px #00372d82, 0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+th,
+td {
+  padding: 15px;
+  border: 1px solid hsla(169, 100%, 11%, 0.51);
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+  font-weight: normal;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.total {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+}
+
+.total td {
+  border: none;
+}
+
+.total td:first-child {
+  border-right: 1px solid #ddd;
+}
+
+.total td:last-child {
+  border-left: 1px solid #ddd;
+}
+
+.ttd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+.ttd span {
+  text-align: center;
+  flex-basis: 45%;
+}
+
+.ttd .garis {
+  border-bottom: 1px solid #333;
+  flex-basis: 10%;
+}
+
+.ttd .ttd-right {
+  text-align: right;
+}
+
+.ttd .no-border {
+  border: none;
+}
+
+.btn-pay {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-pay:hover {
+  background-color: #45a049;
+}
